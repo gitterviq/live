@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>TerviQ</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terviq – AI & DevOps Training and Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Welcome to TerviQ</h1>
-  <p>We offer specialized services in IT.</p>
-  <a href="pdfs/product-brochure.pdf" download>Download Brochure</a>
+
+  <header>
+    <div class="logo">
+      <img src="terviq-logo.png" alt="Terviq Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#workshops">Workshops</a></li>
+        <li><a href="#projects">Solutions</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to Terviq</h1>
+      <p>DevOps · AI · Elastic · Ansible · Docker · Infrastructure</p>
+      <a href="#contact" class="cta-button">Contact for Collaboration</a>
+    </section>
+
+    <section id="workshops">
+      <h2>Technical Workshops</h2>
+      <p>Docker, Elasticsearch, Ansible, Kibana, and more – taught step-by-step.</p>
+      <a href="workshop-outline.pdf" target="_blank">Download Workshop PDF</a>
+    </section>
+
+    <section id="projects">
+      <h2>Consulting & Solutions</h2>
+      <p>Custom-built tools, cluster design, AI-powered search systems, monitoring, etc.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Terviq</h2>
+      <p>Terviq is a technical consultancy built by Henrik, focused on scalable infrastructure, open-source tools, and AI integrations. Based between Denmark and Kenya – serving clients globally.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="mailto:henrik@example.com" method="POST" enctype="text/plain">
+        <label>Name:<br><input type="text" name="name" /></label><br>
+        <label>Email:<br><input type="email" name="email" /></label><br>
+        <label>Message:<br><textarea name="message" rows="5"></textarea></label><br>
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Terviq – All rights reserved</p>
+  </footer>
+
 </body>
 </html>
-
